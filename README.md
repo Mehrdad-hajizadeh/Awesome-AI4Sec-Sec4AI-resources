@@ -3,7 +3,7 @@
 Welcome to the **Adversarial-AI-Research** repository!  
 This repository contains the latest research papers focusing on adversarial machine learning (AML), specifically targeting:
 
-- Network Intrusion Detection Systems (NIDS)
+- (Network) Intrusion Detection Systems (N)IDS
 - Malware Detection
 - Large Language Models (LLMs)
 - Adversarial Machine Learning (AML)
@@ -16,6 +16,7 @@ This repository contains the latest research papers focusing on adversarial mach
 ### 2023
 
 - [Black-box Adversarial Example Attack towards FCG Based Android Malware Detection under Incomplete Feature Information](https://www.usenix.org/system/files/sec23fall-prepub-2-li-heng.pdf)
+- [Evading Provenance-Based ML Detectors with Adversarial System Actions](https://www.usenix.org/system/files/usenixsecurity23-mukherjee.pdf)
 ---
 ## Adversarial attack and defense against LLM
 ### 2024
