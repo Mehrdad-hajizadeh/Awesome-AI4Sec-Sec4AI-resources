@@ -14,7 +14,8 @@ This repository contains the latest research papers focusing on adversarial mach
 - [Towards realistic problem-space adversarial attacks against machine learning in network intrusion detection](https://dl.acm.org/doi/pdf/10.1145/3664476.3669974)
 
 ### 2023
--[Black-box Adversarial Example Attack towards FCG Based Android Malware Detection under Incomplete Feature Information](https://www.usenix.org/system/files/sec23fall-prepub-2-li-heng.pdf)
+
+- [Black-box Adversarial Example Attack towards FCG Based Android Malware Detection under Incomplete Feature Information](https://www.usenix.org/system/files/sec23fall-prepub-2-li-heng.pdf)
 ---
 ## Adversarial attack and defense against LLM
 ### 2024
