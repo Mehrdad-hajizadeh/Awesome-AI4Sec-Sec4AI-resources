@@ -17,6 +17,8 @@ This repository contains the latest research papers focusing on adversarial mach
 
 - [Black-box Adversarial Example Attack towards FCG Based Android Malware Detection under Incomplete Feature Information](https://www.usenix.org/system/files/sec23fall-prepub-2-li-heng.pdf)
 - [Evading Provenance-Based ML Detectors with Adversarial System Actions](https://www.usenix.org/system/files/usenixsecurity23-mukherjee.pdf)
+- [A Comprehensive Survey of Generative Adversarial Networks (GANs) in Cybersecurity Intrusion Detection](https://ieeexplore.ieee.org/abstract/document/10187144)
+
 ---
 ## Adversarial attack and defense against LLM
 ### 2024
