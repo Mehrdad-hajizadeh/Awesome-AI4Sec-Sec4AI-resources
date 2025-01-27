@@ -9,6 +9,8 @@ This repository contains the latest research papers focusing on adversarial mach
 - Adversarial Machine Learning (AML)
 ---
 ## Adversarial attack and defense against NIDS
+### 2025
+- [Adversarial Evasion Attacks Practicality in Networks: Testing the Impact of Dynamic Learning](https://arxiv.org/pdf/2306.05494)
 ### 2024
 - [Explainable and Transferable Adversarial Attack for ML-Based Network Intrusion Detectors](https://arxiv.org/pdf/2401.10691#page=17&zoom=100,416,53)
 - [Towards realistic problem-space adversarial attacks against machine learning in network intrusion detection](https://dl.acm.org/doi/pdf/10.1145/3664476.3669974)
