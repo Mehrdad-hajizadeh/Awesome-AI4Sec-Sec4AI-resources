@@ -45,3 +45,4 @@ This repository contains the latest research papers focusing on adversarial mach
 ### 2023
 ### Prior
 - NeurIPS 2019, [Adversarial Examples are not Bugs, they are Features](https://proceedings.neurips.cc/paper_files/paper/2019/file/e2c420d928d4bf8ce0ff2ec19b371514-Paper.pdf)
+- CVF 2019, [Feature Space Perturbations Yield More Transferable Adversarial Examples](https://openaccess.thecvf.com/content_CVPR_2019/papers/Inkawhich_Feature_Space_Perturbations_Yield_More_Transferable_Adversarial_Examples_CVPR_2019_paper.pdf)
