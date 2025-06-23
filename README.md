@@ -2,7 +2,6 @@
 
 Welcome to the **AI-for-Security-and-Security-for-AI** repository!
 
-This repository curates and organizes cutting-edge research at the intersection of **artificial intelligence and cybersecurity**. It covers two complementary areas:
 This repository curates and organizes cutting-edge research at the intersection of **artificial intelligence (AI) and cybersecurity**, with a strong focus on both offensive threats and defensive applications.
 Specifically, it highlights how AI can be leveraged to enhance Security Operations Center (SOC) effectiveness — including threat detection, alert triage, incident response, and anomaly analysis. It also explores how to secure AI systems themselves against emerging threats like adversarial attacks, model extraction, and misuse of autonomous agents.
 
