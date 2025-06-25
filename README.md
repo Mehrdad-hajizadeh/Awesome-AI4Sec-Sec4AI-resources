@@ -37,60 +37,62 @@ This section is organized using the **[MITRE ATLAS Framework](https://atlas.mitr
 ### 1. AI4Sec — AI for Security
 
 #### 1.1 Defensive Security ([NIST Cybersecurity Framework](https://www.nist.gov/cyberframework))
-- [1.1.1 Govern](#)
-- [1.1.2 Identify](#)
-- [1.1.3 Protect](#)
-- [1.1.4 Detect](#)
-- [1.1.5 Respond](#)
-- [1.1.6 Recover](#)
+- [1.1.1 Govern](#111-govern)
+- [1.1.2 Identify](#112-identify)
+- [1.1.3 Protect](#113-protect)
+- [1.1.4 Detect](#114-detect)
+- [1.1.5 Respond](#115-respond)
+- [1.1.6 Recover](#116-recover)
 
 #### 1.2 Offensive Security ([MITRE ATT&CK Matrix](https://attack.mitre.org/))
-- [1.2.1 Reconnaissance](#)
-- [1.2.2 Resource Development](#)
-- [1.2.3 Initial Access](#)
-- [1.2.4 Execution](#)
-- [1.2.5 Persistence](#)
-- [1.2.6 Privilege Escalation](#)
-- [1.2.7 Defense Evasion](#)
-- [1.2.8 Credential Access](#)
-- [1.2.9 Discovery](#)
-- [1.2.10 Lateral Movement](#)
-- [1.2.11 Collection](#)
-- [1.2.12 Command and Control](#)
-- [1.2.13 Exfiltration](#)
-- [1.2.14 Impact](#)
+- [1.2.1 Reconnaissance](#121-reconnaissance)
+- [1.2.2 Resource Development](#122-resource-development)
+- [1.2.3 Initial Access](#123-initial-access)
+- [1.2.4 Execution](#124-execution)
+- [1.2.5 Persistence](#125-persistence)
+- [1.2.6 Privilege Escalation](#126-privilege-escalation)
+- [1.2.7 Defense Evasion](#127-defense-evasion)
+- [1.2.8 Credential Access](#128-credential-access)
+- [1.2.9 Discovery](#129-discovery)
+- [1.2.10 Lateral Movement](#1210-lateral-movement)
+- [1.2.11 Collection](#1211-collection)
+- [1.2.12 Command and Control](#1212-command-and-control)
+- [1.2.13 Exfiltration](#1213-exfiltration)
+- [1.2.14 Impact](#1214-impact)
 
 #### 1.3 Misc
-- [1.3.1 Dataset](#)
-- [1.3.2 Open-source tools](#)
+- [1.3.1 Dataset](#131-dataset)
+- [1.3.2 Open-source tools](#132-open-source-tools)
 
 ---
 ### 2. Sec4AI — Security for AI
 #### 2.1 Defensive Security for AI Models (no standard framework)
-- [2.1.1 Detection](#)
-- [2.2.1 Mitigation](#)
+- [2.1.1 Detection](#211-detection)
+- [2.1.2 Mitigation](#212-mitigation)
+
 #### 2.2 Offensive Security ([MITRE ATLAS framework](https://atlas.mitre.org/matrices/ATLAS))
-- [2.2.1 Reconnaissance](#)
-- [2.2.2 Resource Development](#)
-- [2.2.3 Initial Access](#)
-- [2.2.4 AI Model Access](#)
-- [2.2.5 Execution](#)
-- [2.2.6 Persistence](#)
-- [2.2.7 Privilege Escalation](#)
-- [2.2.8 Defense Evasion](#)
-- [2.2.9 Credential Access](#)
-- [2.2.10 Discovery](#)
-- [2.2.11 Collection](#)
-- [2.2.12 AI Attack Staging](#)
-- [2.2.13 Command and Control](#)
-- [2.2.14 Exfiltration](#)
-- [2.2.15 Impact](#)
+- [2.2.1 Reconnaissance](#221-reconnaissance)
+- [2.2.2 Resource Development](#222-resource-development)
+- [2.2.3 Initial Access](#223-initial-access)
+- [2.2.4 AI Model Access](#224-ai-model-access)
+- [2.2.5 Execution](#225-execution)
+- [2.2.6 Persistence](#226-persistence)
+- [2.2.7 Privilege Escalation](#227-privilege-escalation)
+- [2.2.8 Defense Evasion](#228-defense-evasion)
+- [2.2.9 Credential Access](#229-credential-access)
+- [2.2.10 Discovery](#2210-discovery)
+- [2.2.11 Collection](#2211-collection)
+- [2.2.12 AI Attack Staging](#2212-ai-attack-staging)
+- [2.2.13 Command and Control](#2213-command-and-control)
+- [2.2.14 Exfiltration](#2214-exfiltration)
+- [2.2.15 Impact](#2215-impact)
 
 #### 2.3 Misc
-- [2.3.1 Dataset](#)
-- [2.3.2 Open-source tools](#)
+- [2.3.1 Dataset](#231-dataset)
+- [2.3.2 Open-source tools](#232-open-source-tools)
 
 ---
+
 ## 1. AI4Sec — AI for Security
 
 ### 1.1 Defensive Security ([NIST Cybersecurity Framework](https://www.nist.gov/cyberframework))
@@ -105,11 +107,13 @@ This section is organized using the **[MITRE ATLAS Framework](https://atlas.mitr
 <!-- Content for Protect -->
 
 #### 1.1.4 Detect
+<!-- Content for Detect -->
 📅 2025
 - [Agentic-AI][Transforming cybersecurity with agentic AI to combat emerging cyber threats](https://www.sciencedirect.com/science/article/pii/S0308596125000734): This paper investigates the transformative potential of agentic AI in cybersecurity, specifically addressing how it can enhance practices in response to emerging threats. It aims to explore how agentic AI can transform cybersecurity practices, particularly in addressing new and evolving threats, while also examining the cybersecurity risks associated with its integration. The research explores the possibilities for agentic AI to automate critical tasks within Security Operations Centers (SOCs), such as decision-making, incident response, and threat detection. It also emphasizes the risks associated with AI integration, including the introduction of new vulnerabilities and challenges in managing automated systems, which call for a reassessment of existing cybersecurity frameworks to effectively address these risks.
 - [Agentic-AI][TAGAPT: Toward Automatic Generation of APT Samples With Provenance-Level Granularity](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10948500): Detecting advanced persistent threats (APTs) at a host via data provenance has emerged as a valuable yet challenging task. Compared with attack rule matching, machine learning approaches offer new perspectives for efficiently detecting attacks by leveraging their inherent ability to autonomously learn from data and adapt to dynamic environments. However, the scarcity of APT samples poses a significant limitation, rendering supervised learning methods that have demonstrated remarkable capabilities in other domains (e.g., malware detection) impractical. Therefore, we propose a system called TAGAPT, which is able to automatically generate numerous APT samples with provenance-level granularity. First, we introduce a deep graph generation model to generalize various graph structures that represent new attack patterns. Second, we propose an attack stage division algorithm to divide each generated graph structure into stage subgraphs. Finally, we design a genetic algorithm to find the optimal attack technique explanation for each subgraph and obtain fully instantiated APT samples. Experimental results demonstrate that TAGAPT can learn from existing attack patterns and generalize to novel attack patterns. Furthermore, the generated APT samples 1) exhibit the ability to help with efficient threat hunting and 2) provide additional assistance to the state-of-theart (SOTA) attack detection system (Kairos) by filtering out 73% of the observed false positives. We have open-sourced the code and the generated samples to support the development of the security community
 📅 2024
 - [Agentic-AI][Using LLMs as AI Agents to Identify False Positive Alerts in Security Operation Center](https://www.researchsquare.com/article/rs-5420741/v1): This paper addresses the challenges and solutions related to identifying false positive (FP) alerts in Security Information and Event Management (SIEM) systems, which often overwhelm security operators. To tackle this issue, we propose a novel approach that employs a Large Language Model (LLM), specifically Llama, as an AI agent through a contextual-based approach to identify FPs in security alerts generated by multiple network sensors and collected in Security Operations Centers (SOCs). Our method follows three key steps: data extraction, enrichment, and playbook execution. First, Llama normalizes security alerts using a common schema, extracting key contextual elements such as IP addresses, host names, filenames, services, and vulnerabilities. Second, these extracted elements are enriched by integrating external resources such as threat intelligence databases and Configuration Management Databases (CMDB) to generate dynamic metadata. Finally, this enriched data is analyzed through predefined false positive investigation playbooks, designed by security professionals, to systematically evaluate and identify FPs.By automating the false positive identification process, this approach reduces the operational burden on human security operators, enhancing the overall efficiency and accuracy of SOCs, and improving the organization's security posture.
+
 #### 1.1.5 Respond
 <!-- Content for Respond -->
 
@@ -224,6 +228,7 @@ This section is organized using the **[MITRE ATLAS Framework](https://atlas.mitr
 - [2022] [Practicality of Adversarial Evasion Attacks on NIDS](https://link.springer.com/article/10.1007/s12243-022-00910-1)
 - [NeurIPS 2019] [Adversarial Examples are not Bugs, They are Features](https://proceedings.neurips.cc/paper_files/paper/2019/file/e2c420d928d4bf8ce0ff2ec19b371514-Paper.pdf)
 - [CVPR 2019]: [Feature Space Perturbations Yield More Transferable Adversarial Examples](https://openaccess.thecvf.com/content_CVPR_2019/papers/Inkawhich_Feature_Space_Perturbations_Yield_More_Transferable_Adversarial_Examples_CVPR_2019_paper.pdf)
+
 #### 2.2.9 Credential Access
 <!-- Content for Credential Access -->
 
@@ -239,6 +244,7 @@ This section is organized using the **[MITRE ATLAS Framework](https://atlas.mitr
 📅 Prior
 - [Model Theft/extraction/Stealing][Evasion]: [Surrogate-Based Black-Box Attacks on Deep Networks](https://arxiv.org/pdf/2203.08725)
 - [Model Theft/extraction/Stealing][Evasion]: [Meta-Surrogate Model for Transferable Adversarial Attack](https://arxiv.org/pdf/2109.01983)
+
 #### 2.2.13 Command and Control
 <!-- Content for Command and Control -->
 
@@ -255,5 +261,3 @@ This section is organized using the **[MITRE ATLAS Framework](https://atlas.mitr
 
 #### 2.3.2 Open-source tools
 <!-- Content for Open-source tools -->
-
-
