@@ -35,7 +35,7 @@ This section is organized using the **[MITRE ATLAS Framework](https://atlas.mitr
 ## 📚 Table of Contents
 
 ### 1. AI4Sec — AI for Security
-
+- [Survey][2024][Large Language Models in Cybersecurity: State-of-the-Art](https://arxiv.org/pdf/2402.00891)
 #### 1.1 Defensive Security ([NIST Cybersecurity Framework](https://www.nist.gov/cyberframework))
 - [1.1.1 Govern](#111-govern)
 - [1.1.2 Identify](#112-identify)
@@ -104,7 +104,11 @@ This section is organized using the **[MITRE ATLAS Framework](https://atlas.mitr
 <!-- Content for Identify -->
 
 #### 1.1.3 Protect
-<!-- Content for Protect -->
+📅 2025
+- [Agentic-AI][SOC][A Unified Framework for Human AI Collaboration in Security Operations Centers with Trusted Autonomy](https://arxiv.org/abs/2505.23397)
+This article presents a structured framework for Human-AI collaboration in Security Operations Centers (SOCs), integrating AI autonomy, trust calibration, and Human-in-the-loop decision making. Existing frameworks in SOCs often focus narrowly on automation, lacking systematic structures to manage human oversight, trust calibration, and scalable autonomy with AI. Many assume static or binary autonomy settings, failing to account for the varied complexity, criticality, and risk across SOC tasks considering Humans and AI collaboration. To address these limitations, we propose a novel autonomy tiered framework grounded in five levels of AI autonomy from manual to fully autonomous, mapped to Human-in-the-Loop (HITL) roles and task-specific trust thresholds. This enables adaptive and explainable AI integration across core SOC functions, including monitoring, protection, threat detection, alert triage, and incident response. The proposed framework differentiates itself from previous research by creating formal connections between autonomy, trust, and HITL across various SOC levels, which allows for adaptive task distribution according to operational complexity and associated risks. The framework is exemplified through a simulated cyber range that features the cybersecurity AI-Avatar, a fine-tuned LLM-based SOC assistant. The AI-Avatar case study illustrates human-AI collaboration for SOC tasks, reducing alert fatigue, enhancing response coordination, and strategically calibrating trust. This research systematically presents both the theoretical and practical aspects and feasibility of designing next-generation cognitive SOCs that leverage AI not to replace but to enhance human decision-making.
+- [CTI][Optimising AI models for intelligence extraction in the life cycle of Cybersecurity Threat Landscape generation](https://www.sciencedirect.com/science/article/pii/S2214212625000754)
+
 
 #### 1.1.4 Detect
 <!-- Content for Detect -->
@@ -113,9 +117,20 @@ This section is organized using the **[MITRE ATLAS Framework](https://atlas.mitr
 - [Agentic-AI][TAGAPT: Toward Automatic Generation of APT Samples With Provenance-Level Granularity](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10948500): Detecting advanced persistent threats (APTs) at a host via data provenance has emerged as a valuable yet challenging task. Compared with attack rule matching, machine learning approaches offer new perspectives for efficiently detecting attacks by leveraging their inherent ability to autonomously learn from data and adapt to dynamic environments. However, the scarcity of APT samples poses a significant limitation, rendering supervised learning methods that have demonstrated remarkable capabilities in other domains (e.g., malware detection) impractical. Therefore, we propose a system called TAGAPT, which is able to automatically generate numerous APT samples with provenance-level granularity. First, we introduce a deep graph generation model to generalize various graph structures that represent new attack patterns. Second, we propose an attack stage division algorithm to divide each generated graph structure into stage subgraphs. Finally, we design a genetic algorithm to find the optimal attack technique explanation for each subgraph and obtain fully instantiated APT samples. Experimental results demonstrate that TAGAPT can learn from existing attack patterns and generalize to novel attack patterns. Furthermore, the generated APT samples 1) exhibit the ability to help with efficient threat hunting and 2) provide additional assistance to the state-of-theart (SOTA) attack detection system (Kairos) by filtering out 73% of the observed false positives. We have open-sourced the code and the generated samples to support the development of the security community
 📅 2024
 - [Agentic-AI][Using LLMs as AI Agents to Identify False Positive Alerts in Security Operation Center](https://www.researchsquare.com/article/rs-5420741/v1): This paper addresses the challenges and solutions related to identifying false positive (FP) alerts in Security Information and Event Management (SIEM) systems, which often overwhelm security operators. To tackle this issue, we propose a novel approach that employs a Large Language Model (LLM), specifically Llama, as an AI agent through a contextual-based approach to identify FPs in security alerts generated by multiple network sensors and collected in Security Operations Centers (SOCs). Our method follows three key steps: data extraction, enrichment, and playbook execution. First, Llama normalizes security alerts using a common schema, extracting key contextual elements such as IP addresses, host names, filenames, services, and vulnerabilities. Second, these extracted elements are enriched by integrating external resources such as threat intelligence databases and Configuration Management Databases (CMDB) to generate dynamic metadata. Finally, this enriched data is analyzed through predefined false positive investigation playbooks, designed by security professionals, to systematically evaluate and identify FPs.By automating the false positive identification process, this approach reduces the operational burden on human security operators, enhancing the overall efficiency and accuracy of SOCs, and improving the organization's security posture.
+- [Agentic-AI][Phishing][Large Multimodal Agents for Accurate Phishing Detection with Enhanced Token Optimization and Cost Reduction](https://ieeexplore.ieee.org/abstract/document/10852444)
+- [LLM][APT-LLM: Embedding-Based Anomaly Detection of Cyber Advanced Persistent Threats Using Large Language Models](https://arxiv.org/abs/2502.09385)
+- [LLM ][Intelligent Cyber Defense: Leveraging LLMs for Real-Time Threat Detection and Analysis](https://link.springer.com/chapter/10.1007/978-3-031-81322-1_5)
+
+
+
 
 #### 1.1.5 Respond
-<!-- Content for Respond -->
+📅 2025
+- [Agentic-AI][AutoBnB: Multi-Agent Incident Response with Large Language Models](https://ieeexplore.ieee.org/abstract/document/11012055)
+
+📅 2024
+- [Agentic-AI][Multi-Agent Collaboration in Incident Response with Large Language Models](https://arxiv.org/abs/2412.00652)
+
 
 #### 1.1.6 Recover
 <!-- Content for Recover -->
@@ -165,7 +180,11 @@ This section is organized using the **[MITRE ATLAS Framework](https://atlas.mitr
 <!-- Content for Impact -->
 
 ### 1.3 Misc
-
+- [Agentic-AI][Web][The Dawn of Agentic AI in the SOC](https://torq.io/blog/agentic-ai-in-the-soc/)
+- [Agentic-AI][Web][Agentic AI: The Future of Autonomous Security Operations](https://intezer.com/blog/agentic-ai-security/)
+- [Agentic-AI][Web][Agentic AI: A New Era of Autonomous Security Operations](https://www.darkreading.com/cybersecurity-operations/agentic-ai-new-era-autonomous-security-operations)
+- 
+- [Agentic-AI][Web][Agentic AI: How It Works and 7 Real-World Use Cases](https://www.exabeam.com/explainers/ai-cyber-security/agentic-ai-how-it-works-and-7-real-world-use-cases/)
 #### 1.3.1 Dataset
 <!-- Content for Dataset -->
 
@@ -187,6 +206,10 @@ This section is organized using the **[MITRE ATLAS Framework](https://atlas.mitr
 
 ### 2.2 Offensive Security ([MITRE ATLAS framework](https://atlas.mitre.org/matrices/ATLAS))
 
+📅 2025
+- [Survey/Review][Red teaming large language models: A comprehensive review and critical analysis](https://www.sciencedirect.com/science/article/pii/S0306457325001803)
+📅 2024
+- [LLM][Exploiting LLMs for E-Learning: A Cybersecurity Perspective on AI-Generated Tools in Education](https://ieeexplore.ieee.org/abstract/document/10863662)
 #### 2.2.1 Reconnaissance
 <!-- Content for Reconnaissance -->
 
@@ -255,7 +278,8 @@ This section is organized using the **[MITRE ATLAS Framework](https://atlas.mitr
 <!-- Content for Impact -->
 
 ### 2.3 Misc
-
+- [OWASP][Agentic-AI][Agentic AI – Threats and Mitigations](https://genai.owasp.org/resource/agentic-ai-threats-and-mitigations/)
+- [OWASP][2025 Top 10 Risk & Mitigations for LLMs and Gen AI Apps](https://genai.owasp.org/llm-top-10/)
 #### 2.3.1 Dataset
 <!-- Content for Dataset -->
 
